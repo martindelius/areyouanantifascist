@@ -23,4 +23,16 @@ $('.yes').click(function(){
         }; 
 });
 
+$('.no').click(function(){
+
+        if ($('#q1-wrapper').is(':visible')) {
+        	window.location = "http://de.wikipedia.org/wiki/Allgemeine_Erklärung_der_Menschenrechte";
+	} else if ($('#q2-wrapper').is(':visible')) {
+        	window.location = "http://de.wikipedia.org/wiki/Allgemeine_Erklärung_der_Menschenrechte";
+	} else if ($('#q3-wrapper').is(':visible')) {
+        	window.location = "http://dejure.org/gesetze/GG/20.html";
+	};
+});
+
+
 });
