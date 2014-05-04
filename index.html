@@ -1,13 +1,18 @@
 <html>
 <head>
+	<meta charset="UTF-8">
+
 	<script type="text/javascript" src="script/jquery-2.1.0.min.js"></script>	
 	<script type="text/javascript" src="script/scripts.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 </head>
 <body>
 <div id="start-wrapper">
 	<h1>Bist du Antifaschist?</h1>
-	<div id="start">Mach den Test!</div>
+	<div class="button" id="start">Mach den Test!</div>
 </div> <!--#start-wrapper-->
+<div id="qa-wrapper" style="display:none;">
 <div id="q1-wrapper" style="display:none;">
 	<div class="question">Bist du der Meinung, dass alle Menschen gleicher Würde sind?</div>
 </div> <!--#q1-wrapper-->
@@ -18,11 +23,23 @@
 	<div class="question">Bist du der Meinung, dass alle Menschen das Recht haben sich gegen Unrecht zur Wehr zu setzen?</div>
 </div> <!--#q3-wrapper-->
 <div id="answer-wrapper" style="display:none;">
-	<div class="yes">JA</div>
-	<div class="no">NEIN</div>
+	<div class="yes button">JA</div>
+	<div class="no button ">NEIN</div>
 </div> <!--#answer-wrapper-->
+</div><!--#qa-wrapper-->
 <div id="winner-wrapper" style="display:none;">
 <h1>Du bist Antifaschist.</h1>
+<div class="button" id="again">Nochmal!</div>
 </div><!--#winner-wrapper-->
+<div id="imprint" style="display:none;">
+<div id="imprint-close">X</div>
+<h2>Was soll das Ganze?</h2>
+<p>Bistduantifaschist.de, bistduantifaschistin.de oder areanantifascist.com ist ein Projekt, das, wie areyouafeminist.com zuvor auch schon, an jene gerichtet ist, die im politischen Diskurs auf sozialen Netzwerken und anderen Plattformen an einer einfachen Begriffsdefinition scheitern oder sich selbst nicht sicher sind, ob sie unter den Begriff Antifaschist oder Antifaschistin fallen. Die Fragen im Test sind mit Bedacht gewählt, um eine möglichst allgemein gültige umfassende Begrifflichkeit zu ermöglichen. Die Aussage, die hinter einem erfolgreichen Testverlauf steht, könnte auch heißen: <i>Du setzt dich für die Durchsetzung der allgemeingültigen und unveränderlichen Menschenrechte aktiv ein und trittst einer Verletzung dieser entschieden und mit allen gebotenen Mitteln entgegen. Du bist Antifaschist eben.</i></p>
+<p>Betrieben und gepflegt von:<br>Martin Delius<br>Niederkirchnerstraße 5, 10111 Berlin<br><a href="mailto:mail@martindelius.de">mail@martindelius.de</a><br><a href="http://twitter.com/martindelius">@martindelius</a></p>
+</div><!--#imprint-->
+<div id="footer">
+<div id="imprint-link">Was soll das Ganze?</div>
+<div id="github">GitHub</div>
+</div><!--#footer-->
 </body>
 </html>
