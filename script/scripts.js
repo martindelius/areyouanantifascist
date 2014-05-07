@@ -4,6 +4,7 @@ $(document).ready(function(){
 $('#start').click(function(){
 
 	$('#start-wrapper').hide();
+	$('#qa-wrapper').show();
 	$('#q1-wrapper').show();
 	$('#answer-wrapper').show();
 });
@@ -34,5 +35,23 @@ $('.no').click(function(){
 	};
 });
 
+$('#imprint-link').click(function(){
+
+	$('#imprint').show();
+
+});
+
+$('#imprint-close').click(function(){
+
+        $('#imprint').hide();
+
+});
+
+$('#again').click(function(){
+
+        $('#winner-wrapper').hide();
+	window.location = "http://bistduantifaschist.de";
+
+});
 
 });
