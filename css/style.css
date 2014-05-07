@@ -84,3 +84,17 @@ div.yes {
 	margin:1em auto;
 
 }
+
+#start.button {
+
+	width: 200px;
+	margin: 0 auto;
+
+}
+
+#again.button {
+
+        width: 200px;
+        margin: 0 auto;
+
+}
