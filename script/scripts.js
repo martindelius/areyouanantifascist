@@ -38,13 +38,14 @@ $('.no').click(function(){
 $('#imprint-link').click(function(){
 
 	$('#imprint').show();
+	$('#footer').hide();
 
 });
 
 $('#imprint-close').click(function(){
 
         $('#imprint').hide();
-
+	$('#footer').show();
 });
 
 $('#again').click(function(){
