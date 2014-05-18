@@ -4,10 +4,23 @@
 
 	<script type="text/javascript" src="script/jquery-2.1.0.min.js"></script>	
 	<script type="text/javascript" src="script/scripts.js"></script>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<script>
 
+    window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '{635872589827341}',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+
+(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=135658973133336&version=v2.0";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 </head>
 <body>
+<div id="fb-root"></div>
 <div id="start-wrapper">
 	<h1>Bist du Antifaschist?</h1>
 	<div class="button" id="start">Mach den Test!</div>
@@ -30,12 +43,17 @@
 <div id="winner-wrapper" style="display:none;">
 <h1>Du bist Antifaschist.</h1>
 <div class="button" id="again">Nochmal!</div>
+<div id="sm-share">
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+</div> <!--#sm-share-->
 </div><!--#winner-wrapper-->
 <div id="imprint" style="display:none;">
 <div id="imprint-close">X</div>
 <h2>Was soll das Ganze?</h2>
 <p>Bistduantifaschist.de, bistduantifaschistin.de oder areanantifascist.com ist ein Projekt, das, wie areyouafeminist.com zuvor auch schon, an jene gerichtet ist, die im politischen Diskurs auf sozialen Netzwerken und anderen Plattformen an einer einfachen Begriffsdefinition scheitern oder sich selbst nicht sicher sind, ob sie unter den Begriff Antifaschist oder Antifaschistin fallen. Die Fragen im Test sind mit Bedacht gewählt, um eine möglichst allgemein gültige umfassende Begrifflichkeit zu ermöglichen. Die Aussage, die hinter einem erfolgreichen Testverlauf steht, könnte auch heißen: <i>Du setzt dich für die Durchsetzung der allgemeingültigen und unveränderlichen Menschenrechte aktiv ein und trittst einer Verletzung dieser entschieden und mit allen gebotenen Mitteln entgegen. Du bist Antifaschist eben.</i></p>
 <p>Betrieben und gepflegt von:<br>Martin Delius<br>Niederkirchnerstraße 5, 10111 Berlin<br><a href="mailto:mail@martindelius.de">mail@martindelius.de</a><br><a href="http://twitter.com/martindelius">@martindelius</a></p>
+<div class="fb-like" data-href="https://www.facebook.com/bistduantifaschistin" data-layout="button_count" data-action="recommend" data-show-faces="false" data-share="true"></div>
+<script id='fbmuxdh'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=politikpirat&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbmuxdh');</script>
 </div><!--#imprint-->
 <div id="footer">
 <div id="imprint-link">Was soll das Ganze?</div>
