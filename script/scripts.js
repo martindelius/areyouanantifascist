@@ -1,6 +1,25 @@
 
 $(document).ready(function(){
 
+$('#female').click(function(){
+	$('#splash-wrapper').hide();
+	$('#start-wrapper h1').text("Bist du Antifaschistin?");
+	$('#winner-wrapper h1').text("Du bist Antifaschistin.");
+	$('#start-wrapper').show();
+});
+
+$('#male').click(function(){
+        $('#splash-wrapper').hide();
+        $('#start-wrapper').show();
+});
+
+$('#neither').click(function(){
+        $('#splash-wrapper').hide();
+        $('#start-wrapper h1').text("Bist du Antifaschist*in?");
+        $('#winner-wrapper h1').text("Du bist Antifaschist*in.");
+        $('#start-wrapper').show();
+});
+
 $('#start').click(function(){
 
 	$('#start-wrapper').hide();

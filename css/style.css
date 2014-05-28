@@ -105,6 +105,47 @@ div.yes {
 
 }
 
+#female { float: left; }
+#male { float : right; }
+#neither { 
+	width:100%; 
+	text-align:center;
+	font-weight:bold;
+	color:#fff;
+	background-color:black;
+	clear: both;
+	padding: 1em 0;
+	font-size: 150%;
+}
+
+.splash-button img{ 
+        max-width : 100%;
+	margin: 0 auto;
+}
+
+#splash-wrapper {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 80%;
+	height: 500px;
+	background-color: #fff;
+	opacity:0.7;
+}
+
+#splash-wrapper h2 { 
+	width : 100%;
+	text-align: center;
+	font-size: 200%;
+}
+
+.splash-button { 
+	width : 50%;
+}
+
 /* IPHONE 5 */
 
 @media only screen 
@@ -112,7 +153,11 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) { 
 
 
-#qa-wrapper, #imprint, #winner-wrapper, #start-wrapper, #answer-wrapper {width:100%;}
+#qa-wrapper, #imprint, #winner-wrapper, #start-wrapper, #answer-wrapper, #splash-wrapper {width:100%;}
+
+#splash-wrapper { 
+	margin-top: 100px;
+}
 
 #imprint {
 	width: auto;
@@ -126,4 +171,4 @@ and (max-device-width : 568px) {
 	top: auto;
 	width: 100%;
 	margin-top : 1em;
-}
+}}
