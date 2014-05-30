@@ -172,3 +172,32 @@ and (max-device-width : 568px) {
 	width: 100%;
 	margin-top : 1em;
 }}
+
+/* SAMSUNG GALAXY S2 */
+
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 800px) { 
+
+#qa-wrapper, #imprint, #winner-wrapper, #start-wrapper, #answer-wrapper, #splash-wrapper {width:100%;}
+
+#splash-wrapper {
+        margin-top: 100px;
+}
+
+#imprint {
+        width: auto;
+        height: auto;
+        border: none;
+}
+
+#imprint-close {
+
+        clear: both;
+        top: auto;
+        width: 100%;
+        margin-top : 1em;
+}}
+
+
+}
